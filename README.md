@@ -60,23 +60,23 @@ This project is boilerplate code that has been built using a PERN stack (Postgre
 .
 ├── client                  #front-end
 │   ├── src
-│   |   ├── components      #react components
-│   |   ├── config          #axios settings
-│   |   ├── pages           #page level components
-│   |   ├── redux           #state management
-│   |   |   ├── actions     #send data to redux store
-│   |   |   └── reducers    #respond to action state changes
-│   |   └── utils           #utilities
-│   |       └── validation  #validation utilities
-|   └── public              #html template
-|
+│   │   ├── components      #react components
+│   │   ├── config          #axios settings
+│   │   ├── pages           #page level components
+│   │   ├── redux           #state management
+│   │   │   ├── actions     #send data to redux store
+│   │   │   └── reducers    #respond to action state changes
+│   │   └── utils           #utilities
+│   │       └── validation  #validation utilities
+│   └── public              #html template
+│
 └── server                  #back-end
     ├── src
-    |   ├── config          #db and passport settings
-    |   ├── controllers     #interface between routes and db
-    |   ├── middleware      #authorise protected requests
-    |   ├── models          #db queries
-    |   └── routes          #express api routes
+    │   ├── config          #db and passport settings
+    │   ├── controllers     #interface between routes and db
+    │   ├── middleware      #authorise protected requests
+    │   ├── models          #db queries
+    │   └── routes          #express api routes
     └── .env                #server config file
 ```
 
